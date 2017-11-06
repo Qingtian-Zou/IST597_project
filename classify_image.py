@@ -164,7 +164,6 @@ def run_inference_on_image(image, file):
     for node_id in top_k:
       human_string = node_lookup.id_to_string(node_id)
       score = predictions[node_id]
-      # TODO replace the following line of output to export data to a text file
       if FLAGS.image_folder_path:
         file.write(os.path.split(image)[1] + ':\t%s\tscore = %.5f\n' % (human_string, score))
       else:
@@ -207,7 +206,6 @@ def main(_):
       if ext != '.jpg':
         continue
       image = os.path.join(FLAGS.image_folder_path, fi)
-      # TODO export expected results to a text file, instead of console
       run_inference_on_image(image, f)
     print('Output can be found at:' + FLAGS.output_file)
     f.close()
