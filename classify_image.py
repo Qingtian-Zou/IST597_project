@@ -127,7 +127,7 @@ def create_graph():
     _ = tf.import_graph_def(graph_def, name='')
 
 
-def run_inference_on_image(image):
+def run_inference_on_image(image, file):
   """Runs inference on an image.
 
   Args:
@@ -164,7 +164,11 @@ def run_inference_on_image(image):
     for node_id in top_k:
       human_string = node_lookup.id_to_string(node_id)
       score = predictions[node_id]
-      print('%s (score = %.5f)' % (human_string, score))
+      # TODO replace the following line of output to export data to a text file
+      if FLAGS.image_folder_path:
+        file.write(os.path.split(image)[1] + ':\t%s\tscore = %.5f\n' % (human_string, score))
+      else:
+        print(os.path.split(image)[1] + ':\t%s\tscore = %.5f' % (human_string, score))
 
 
 def maybe_download_and_extract():
@@ -197,13 +201,16 @@ def main(_):
     if FLAGS.image_file:
       print('Specified image folder! The specified image file will be ignored!')
     files = os.listdir(FLAGS.image_folder_path)
+    f = open(FLAGS.output_file, "w")
     for fi in files:
       ext = os.path.splitext(fi)[1]
       if ext != '.jpg':
         continue
       image = os.path.join(FLAGS.image_folder_path, fi)
       # TODO export expected results to a text file, instead of console
-      run_inference_on_image(image)
+      run_inference_on_image(image, f)
+    print('Output can be found at:' + FLAGS.output_file)
+    f.close()
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
@@ -240,6 +247,12 @@ if __name__ == '__main__':
     type=str,
     default='',
     help='Absolute path to image folder.'
+  )
+  parser.add_argument(
+    '--output_file',
+    type=str,
+    default=os.path.join(os.getcwd(), 'output.txt'),
+    help='Absolute path to the output file.'
   )
   parser.add_argument(
     '--output_folder_path',
