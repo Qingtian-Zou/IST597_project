@@ -188,11 +188,14 @@ def maybe_download_and_extract():
 
 def main(_):
   maybe_download_and_extract()
-  # TODO processing FLAGS.image_folder_path
   # TODO processing FLAGS.output_folder_path
-  image = (FLAGS.image_file if FLAGS.image_file else
-           os.path.join(FLAGS.model_dir, 'cropped_panda.jpg'))
-  run_inference_on_image(image)
+  if not FLAGS.image_folder_path:
+    image = (FLAGS.image_file if FLAGS.image_file else
+         os.path.join(FLAGS.model_dir, 'cropped_panda.jpg'))
+    run_inference_on_image(image)
+  else:
+    # TODO for every images in image_folder_path, run code above
+    files = os.listdir(FLAGS.image_folder_path)
 
 
 if __name__ == '__main__':
