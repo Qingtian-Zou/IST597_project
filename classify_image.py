@@ -194,9 +194,16 @@ def main(_):
          os.path.join(FLAGS.model_dir, 'cropped_panda.jpg'))
     run_inference_on_image(image)
   else:
-    # TODO for every images in image_folder_path, run code above
+    if FLAGS.image_file:
+      print('Specified image folder! The specified image file will be ignored!')
     files = os.listdir(FLAGS.image_folder_path)
-
+    for fi in files:
+      ext = os.path.splitext(fi)[1]
+      if ext != '.jpg':
+        continue
+      image = os.path.join(FLAGS.image_folder_path, fi)
+      # TODO export expected results to a text file, instead of console
+      run_inference_on_image(image)
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
