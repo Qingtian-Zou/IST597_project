@@ -188,6 +188,8 @@ def maybe_download_and_extract():
 
 def main(_):
   maybe_download_and_extract()
+  # TODO processing FLAGS.image_folder_path
+  # TODO processing FLAGS.output_folder_path
   image = (FLAGS.image_file if FLAGS.image_file else
            os.path.join(FLAGS.model_dir, 'cropped_panda.jpg'))
   run_inference_on_image(image)
@@ -223,12 +225,17 @@ if __name__ == '__main__':
       default=5,
       help='Display this many predictions.'
   )
-
-#TODO add_argument(--image_folder_path)
-# to load a folder and categorize all the images within
-
-#TODO add_argument(--output_folder_path)
-# the folder to which all the images are copied
-
+  parser.add_argument(
+    '--image_folder_path',
+    type=str,
+    default='',
+    help='Absolute path to image folder.'
+  )
+  parser.add_argument(
+    '--output_folder_path',
+    type=str,
+    default='',
+    help='Absolute path to the folder where the images are coped.'
+  )
   FLAGS, unparsed = parser.parse_known_args()
   tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)
