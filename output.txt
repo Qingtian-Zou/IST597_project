@@ -1,35 +1,35 @@
-im_01.jpg:	Egyptian cat	score = 0.88316
-im_01.jpg:	tabby, tabby cat	score = 0.07164
-im_01.jpg:	tiger cat	score = 0.02422
-im_01.jpg:	lynx, catamount	score = 0.00106
-im_01.jpg:	radiator	score = 0.00044
-im_02.jpg:	tabby, tabby cat	score = 0.41232
-im_02.jpg:	Egyptian cat	score = 0.27007
-im_02.jpg:	tiger cat	score = 0.21650
-im_02.jpg:	Persian cat	score = 0.00826
-im_02.jpg:	paper towel	score = 0.00214
-im_03.jpg:	tiger cat	score = 0.59430
-im_03.jpg:	tabby, tabby cat	score = 0.25335
-im_03.jpg:	Persian cat	score = 0.02444
-im_03.jpg:	Egyptian cat	score = 0.02250
-im_03.jpg:	hamper	score = 0.00381
-im_04.jpg:	tabby, tabby cat	score = 0.68240
-im_04.jpg:	Egyptian cat	score = 0.19015
-im_04.jpg:	tiger cat	score = 0.08976
-im_04.jpg:	lynx, catamount	score = 0.00135
-im_04.jpg:	carton	score = 0.00037
-im_05.jpg:	Egyptian cat	score = 0.64630
-im_05.jpg:	Persian cat	score = 0.03402
-im_05.jpg:	tabby, tabby cat	score = 0.02317
-im_05.jpg:	Siamese cat, Siamese	score = 0.02158
-im_05.jpg:	paper towel	score = 0.00799
-im_06.jpg:	Egyptian cat	score = 0.33220
-im_06.jpg:	tabby, tabby cat	score = 0.16884
-im_06.jpg:	paper towel	score = 0.04103
-im_06.jpg:	tiger cat	score = 0.03101
-im_06.jpg:	window screen	score = 0.01684
-im_07.jpg:	Persian cat	score = 0.68609
-im_07.jpg:	tiger cat	score = 0.11044
-im_07.jpg:	tabby, tabby cat	score = 0.06706
-im_07.jpg:	Egyptian cat	score = 0.03807
-im_07.jpg:	lynx, catamount	score = 0.00289
+im_01.jpg	Egyptian cat	0.88316
+im_01.jpg	tabby, tabby cat	0.07164
+im_01.jpg	tiger cat	0.02422
+im_01.jpg	lynx, catamount	0.00106
+im_01.jpg	radiator	0.00044
+im_02.jpg	tabby, tabby cat	0.41232
+im_02.jpg	Egyptian cat	0.27007
+im_02.jpg	tiger cat	0.21650
+im_02.jpg	Persian cat	0.00826
+im_02.jpg	paper towel	0.00214
+im_03.jpg	tiger cat	0.59430
+im_03.jpg	tabby, tabby cat	0.25335
+im_03.jpg	Persian cat	0.02444
+im_03.jpg	Egyptian cat	0.02250
+im_03.jpg	hamper	0.00381
+im_04.jpg	tabby, tabby cat	0.68240
+im_04.jpg	Egyptian cat	0.19015
+im_04.jpg	tiger cat	0.08976
+im_04.jpg	lynx, catamount	0.00135
+im_04.jpg	carton	0.00037
+im_05.jpg	Egyptian cat	0.64630
+im_05.jpg	Persian cat	0.03402
+im_05.jpg	tabby, tabby cat	0.02317
+im_05.jpg	Siamese cat, Siamese	0.02158
+im_05.jpg	paper towel	0.00799
+im_06.jpg	Egyptian cat	0.33220
+im_06.jpg	tabby, tabby cat	0.16884
+im_06.jpg	paper towel	0.04103
+im_06.jpg	tiger cat	0.03101
+im_06.jpg	window screen	0.01684
+im_07.jpg	Persian cat	0.68609
+im_07.jpg	tiger cat	0.11044
+im_07.jpg	tabby, tabby cat	0.06706
+im_07.jpg	Egyptian cat	0.03807
+im_07.jpg	lynx, catamount	0.00289

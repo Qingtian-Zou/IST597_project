@@ -165,9 +165,9 @@ def run_inference_on_image(image, file):
       human_string = node_lookup.id_to_string(node_id)
       score = predictions[node_id]
       if FLAGS.image_folder_path:
-        file.write(os.path.split(image)[1] + ':\t%s\tscore = %.5f\n' % (human_string, score))
+        file.write(os.path.split(image)[1] + '\t%s\t%.5f\n' % (human_string, score))
       else:
-        print(os.path.split(image)[1] + ':\t%s\tscore = %.5f' % (human_string, score))
+        print(os.path.split(image)[1] + '\t%s\t%.5f' % (human_string, score))
 
 
 def maybe_download_and_extract():
