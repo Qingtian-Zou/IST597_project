@@ -25,22 +25,18 @@ def confidenceProcessing():
     global results
     global scores
     # processing rules:
-    #       1. If none of the scores of results for a file is greater than 0.6, then all results should present.
-    #       2. If there is only one score of a result is greater than 0.6, and all other scores are significantly low (no greater than 0.2), then delete all other results.
-    #       3. If there is only one score of a result is greater than 0.6, and not all other scores are significantly low (no greater than 0.2), then save all results whose scores are greater than 0.1.
-    #       4. If multiple results are greater than 0.6, then save all results whose scores are greater than 0.4.
+    #   1. If none of the scores of results for a file is greater than 0.6, then all results should present.
+    #   2. If there is only one score of a result is greater than 0.6, and all other scores are significantly low (no greater than 0.2), then delete all other results.
+    #   3. If there is only one score of a result is greater than 0.6, and not all other scores are significantly low (no greater than 0.2), then save all results whose scores are greater than 0.1.
+    #   4. If multiple results are greater than 0.6, then save all results whose scores are greater than 0.4.
     # Just a reminder: the scores are already sorted from high to low when written into file.
     i=-5
-    while True:
-        i+=1
-        if i==len(files): # marks the end of sequence
-            break
-        tmp=scores[i]
+    for i in range(len(files)):
         #  case 1
-        if tmp[0]<0.6:
+        if scores[i][0]<0.6:
             continue
         # case 2
-        elif tmp[1]<0.2:
+        elif scores[i][1]<0.2:
             del results[i][1]
             del results[i][2]
             del results[i][3]
@@ -51,7 +47,7 @@ def confidenceProcessing():
             del scores[i][4]
             continue
         # case 3
-        elif tmp[1]<=0.6:
+        elif scores[i][1]<=0.6:
             for j in range(2,5):
                 if tmp[j]<0.1:
                     del results[i][j]
