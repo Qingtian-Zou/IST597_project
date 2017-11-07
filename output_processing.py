@@ -49,14 +49,14 @@ def confidenceProcessing():
         # case 3
         elif scores[i][1]<=0.6:
             for j in range(2,5):
-                if tmp[j]<0.1:
+                if scores[i][j]<0.1:
                     del results[i][j]
                     del scores[i][j]
             continue
         # case 4
         else:
             for j in range(1,5):
-                if tmp[j]<=0.4:
+                if scores[i][j]<=0.4:
                     del results[i][j]
                     del scores[i][j]
             continue
