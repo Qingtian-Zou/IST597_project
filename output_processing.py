@@ -29,6 +29,13 @@ def confidenceProcessing():
     #       2. If there is only one score of a result is greater than 0.6, and all other scores are significantly low (no greater than 0.2), then delete all other results.
     #       3. If there is only one score of a result is greater than 0.6, and not all other scores are significantly low (no greater than 0.2), then save all results whose scores are greater than 0.1.
     #       4. If multiple results are greater than 0.6, then save all results whose scores are greater than 0.4.
+    i=-5
+    while True:
+        i+=5
+        tmp=[scores[i],scores[i+1],scores[i+2],scores[i+3],scores[i+4]]
+        if max(tmp)<0.6:
+            continue
+        # TODO: for cases 2 to 4
 
 def showStatistic():
     global files
