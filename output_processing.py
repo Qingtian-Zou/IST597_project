@@ -25,11 +25,10 @@ def confidenceProcessing():
     global results
     global scores
     # TODO: processing rules:
-    #       1. If none of the scores of results for a file is greater than 0.5, then all results should present.
+    #       1. If none of the scores of results for a file is greater than 0.6, then all results should present.
     #       2. If there is only one score of a result is greater than 0.6, and all other scores are significantly low (no greater than 0.2), then delete all other results.
     #       3. If there is only one score of a result is greater than 0.6, and not all other scores are significantly low (no greater than 0.2), then save all results whose scores are greater than 0.1.
-    #       4. If multiple results are greater than 0.6, then save all results whose scores are greater than 0.2.
-    # The value 0.6 and 0.2 should be able to be changed by given arguments.
+    #       4. If multiple results are greater than 0.6, then save all results whose scores are greater than 0.4.
 
 def showStatistic():
     global files
