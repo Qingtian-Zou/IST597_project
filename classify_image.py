@@ -45,6 +45,8 @@ import numpy as np
 from six.moves import urllib
 import tensorflow as tf
 
+import output_processing
+
 FLAGS = None
 
 # pylint: disable=line-too-long
@@ -209,6 +211,8 @@ def main(_):
       run_inference_on_image(image, f)
     print('Output can be found at:' + FLAGS.output_file)
     f.close()
+    if FLAGS.process_output:
+      output_processing.loadFile(FLAGS.output_file)
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
@@ -257,6 +261,12 @@ if __name__ == '__main__':
     type=str,
     default='',
     help='Absolute path to the folder where the images are coped.'
+  )
+  parser.add_argument(
+    '--process_output',
+    type=bool,
+    default=False,
+    help='Option for output prcessing.'
   )
   FLAGS, unparsed = parser.parse_known_args()
   tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)

@@ -16,7 +16,7 @@ def loadFile(file):
             results.append([])
             scores.append([])
         results[int(i/5)].append(entry[1])
-        scores[int(i/5)].append(entry[2])
+        scores[int(i/5)].append(float(entry[2]))
         i+=1
     fi.close()
 
