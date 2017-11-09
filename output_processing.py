@@ -1,7 +1,9 @@
+import sys
 import os
 import argparse
 import collections
 import itertools
+from shutil import copyfile
 
 FLAGS=None
 
@@ -69,17 +71,40 @@ def confidenceProcessing():
                         del results[i][j]
                         del scores[i][j]
             continue
+    showStatistic()
 
 def showStatistic():
     global files
     global results
     global scores
-    # TODO: statistic results
     counter = collections.Counter(itertools.chain.from_iterable(results))
     print(counter.most_common())
 
+def copy2labels(source_folder, dest_folder):
+    global files
+    global results
+    global scores
+    if not os.path.exists(source_folder)&os.path.isdir(source_folder):
+        print("Image folder does not exist!")
+        sys.exit(1)
+    try:
+        if not os.path.exists(dest_folder):
+            os.mkdir(dest_folder)
+        counter = collections.Counter(itertools.chain.from_iterable(results))
+        for folder in counter.keys():
+            os.mkdir(os.path.join(dest_folder,folder))
+        for i in range(len(files)):
+            for re in results[i]:
+                copyfile(os.path.join(source_folder,files[i]),os.path.join(dest_folder,re,files[i]))
+    except IOError as identifier:
+        print('Failed!')
+        print(identifier)
+    else:
+        print('Processing succeeded!')
+
 def main():
     loadFile(FLAGS.output_file)
+    copy2labels(FLAGS.source_folder,FLAGS.dest_folder)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -88,6 +113,18 @@ if __name__ == '__main__':
         type=str,
         default=os.path.join(os.getcwd(),'output.txt'),
         help='Absolute path to the output file.'
+    )
+    parser.add_argument(
+        '--image_folder',
+        type=str,
+        default='',
+        help='Absolute path to the image file folder.'
+    )
+    parser.add_argument(
+        '--dest_folder',
+        type=str,
+        default=os.path.join(os.getcwd(),'Categorized pictures'),
+        help='Absolute path to the destination folder'
     )
     FLAGS, unparsed = parser.parse_known_args()
     main()

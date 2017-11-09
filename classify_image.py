@@ -213,6 +213,7 @@ def main(_):
     f.close()
     if FLAGS.process_output:
       output_processing.loadFile(FLAGS.output_file)
+      output_processing.copy2labels(FLAGS.image_folder_path, FLAGS.output_folder_path)
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
@@ -259,7 +260,7 @@ if __name__ == '__main__':
   parser.add_argument(
     '--output_folder_path',
     type=str,
-    default='',
+    default=os.path.join(os.getcwd(),'Categorized pictures'),
     help='Absolute path to the folder where the images are coped.'
   )
   parser.add_argument(
