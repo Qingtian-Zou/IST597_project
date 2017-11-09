@@ -1,5 +1,7 @@
 import os
 import argparse
+import collections
+import itertools
 
 FLAGS=None
 
@@ -73,6 +75,8 @@ def showStatistic():
     global results
     global scores
     # TODO: statistic results
+    counter = collections.Counter(itertools.chain.from_iterable(results))
+    print(counter.most_common())
 
 def main():
     loadFile(FLAGS.output_file)
