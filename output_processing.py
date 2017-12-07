@@ -62,6 +62,7 @@ def confidenceProcessing():
                     for _ in range(5-j):
                         del results[i][j]
                         del scores[i][j]
+                    break
             continue
         # case 4
         else:
@@ -70,6 +71,7 @@ def confidenceProcessing():
                     for _ in range(5-j):
                         del results[i][j]
                         del scores[i][j]
+                    break
             continue
     showStatistic()
 

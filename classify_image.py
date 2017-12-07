@@ -134,6 +134,7 @@ def run_inference_on_image(image, file):
 
   Args:
     image: Image file name.
+    file: Output file name.
 
   Returns:
     Nothing
@@ -166,7 +167,7 @@ def run_inference_on_image(image, file):
     for node_id in top_k:
       human_string = node_lookup.id_to_string(node_id)
       score = predictions[node_id]
-      if FLAGS.image_folder_path:
+      if FLAGS.output_file:
         file.write(os.path.split(image)[1] + '\t%s\t%.5f\n' % (human_string, score))
       else:
         print(os.path.split(image)[1] + '\t%s\t%.5f' % (human_string, score))
@@ -193,11 +194,10 @@ def maybe_download_and_extract():
 
 def main(_):
   maybe_download_and_extract()
-  # TODO processing FLAGS.output_folder_path
   if not FLAGS.image_folder_path:
     image = (FLAGS.image_file if FLAGS.image_file else
          os.path.join(FLAGS.model_dir, 'cropped_panda.jpg'))
-    run_inference_on_image(image)
+    run_inference_on_image(image,FLAGS.output_file)
   else:
     if FLAGS.image_file:
       print('Specified image folder! The specified image file will be ignored!')
