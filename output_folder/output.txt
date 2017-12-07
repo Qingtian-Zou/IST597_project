@@ -1,0 +1,110 @@
+4034970a304e251fdc53b575ad86c9177e3e5392.jpg	bolo tie, bolo, bola tie, bola	0.87552
+4034970a304e251fdc53b575ad86c9177e3e5392.jpg	space shuttle	0.02731
+4034970a304e251fdc53b575ad86c9177e3e5392.jpg	ocarina, sweet potato	0.01345
+4034970a304e251fdc53b575ad86c9177e3e5392.jpg	tray	0.00656
+4034970a304e251fdc53b575ad86c9177e3e5392.jpg	panpipe, pandean pipe, syrinx	0.00355
+c75c10385343fbf2461bf6aeba7eca8065388f0c.jpg	Band Aid	0.09614
+c75c10385343fbf2461bf6aeba7eca8065388f0c.jpg	street sign	0.07637
+c75c10385343fbf2461bf6aeba7eca8065388f0c.jpg	buckle	0.02517
+c75c10385343fbf2461bf6aeba7eca8065388f0c.jpg	pick, plectrum, plectron	0.02151
+c75c10385343fbf2461bf6aeba7eca8065388f0c.jpg	laptop, laptop computer	0.01945
+fc1f4134970a304e6dbff177dbc8a786c8175c99.jpg	window shade	0.18143
+fc1f4134970a304e6dbff177dbc8a786c8175c99.jpg	digital clock	0.09774
+fc1f4134970a304e6dbff177dbc8a786c8175c99.jpg	medicine chest, medicine cabinet	0.09553
+fc1f4134970a304e6dbff177dbc8a786c8175c99.jpg	switch, electric switch, electrical switch	0.03478
+fc1f4134970a304e6dbff177dbc8a786c8175c99.jpg	envelope	0.02732
+images.jpg	scoreboard	0.29882
+images.jpg	library	0.13999
+images.jpg	prison, prison house	0.07924
+images.jpg	street sign	0.07836
+images.jpg	solar dish, solar collector, solar furnace	0.05896
+images1.jpg	library	0.09254
+images1.jpg	bell cote, bell cot	0.08567
+images1.jpg	cab, hack, taxi, taxicab	0.06722
+images1.jpg	cinema, movie theater, movie theatre, movie house, picture palace	0.06270
+images1.jpg	fountain	0.05535
+index.jpg	lakeside, lakeshore	0.46609
+index.jpg	monitor	0.16496
+index.jpg	pier	0.03682
+index.jpg	seashore, coast, seacoast, sea-coast	0.03540
+index.jpg	solar dish, solar collector, solar furnace	0.02374
+u=1053003964,823100946&fm=27&gp=0.jpg	sunglass	0.77381
+u=1053003964,823100946&fm=27&gp=0.jpg	sunglasses, dark glasses, shades	0.22155
+u=1053003964,823100946&fm=27&gp=0.jpg	sandbar, sand bar	0.00008
+u=1053003964,823100946&fm=27&gp=0.jpg	jean, blue jean, denim	0.00006
+u=1053003964,823100946&fm=27&gp=0.jpg	lakeside, lakeshore	0.00006
+u=1089173237,2537400909&fm=27&gp=0.jpg	power drill	0.17624
+u=1089173237,2537400909&fm=27&gp=0.jpg	carpenter's kit, tool kit	0.08550
+u=1089173237,2537400909&fm=27&gp=0.jpg	toyshop	0.03409
+u=1089173237,2537400909&fm=27&gp=0.jpg	racer, race car, racing car	0.03202
+u=1089173237,2537400909&fm=27&gp=0.jpg	vacuum, vacuum cleaner	0.03148
+u=114544107,2805672681&fm=27&gp=0.jpg	bell cote, bell cot	0.15288
+u=114544107,2805672681&fm=27&gp=0.jpg	tile roof	0.09439
+u=114544107,2805672681&fm=27&gp=0.jpg	monitor	0.05248
+u=114544107,2805672681&fm=27&gp=0.jpg	seashore, coast, seacoast, sea-coast	0.05083
+u=114544107,2805672681&fm=27&gp=0.jpg	obelisk	0.03202
+u=115510803,4146042721&fm=27&gp=0.jpg	washer, automatic washer, washing machine	0.04547
+u=115510803,4146042721&fm=27&gp=0.jpg	traffic light, traffic signal, stoplight	0.04318
+u=115510803,4146042721&fm=27&gp=0.jpg	washbasin, handbasin, washbowl, lavabo, wash-hand basin	0.02700
+u=115510803,4146042721&fm=27&gp=0.jpg	pole	0.02353
+u=115510803,4146042721&fm=27&gp=0.jpg	suspension bridge	0.02205
+u=1167452442,1099866385&fm=27&gp=0.jpg	jersey, T-shirt, tee shirt	0.70074
+u=1167452442,1099866385&fm=27&gp=0.jpg	sweatshirt	0.14693
+u=1167452442,1099866385&fm=27&gp=0.jpg	bib	0.01897
+u=1167452442,1099866385&fm=27&gp=0.jpg	maillot	0.01665
+u=1167452442,1099866385&fm=27&gp=0.jpg	bulletproof vest	0.00803
+u=1238212016,3652930997&fm=27&gp=0.jpg	honeycomb	0.86007
+u=1238212016,3652930997&fm=27&gp=0.jpg	digital clock	0.02728
+u=1238212016,3652930997&fm=27&gp=0.jpg	steel drum	0.00227
+u=1238212016,3652930997&fm=27&gp=0.jpg	matchstick	0.00214
+u=1238212016,3652930997&fm=27&gp=0.jpg	dumbbell	0.00106
+u=140967313,4211297842&fm=27&gp=0.jpg	comic book	0.55936
+u=140967313,4211297842&fm=27&gp=0.jpg	book jacket, dust cover, dust jacket, dust wrapper	0.12654
+u=140967313,4211297842&fm=27&gp=0.jpg	web site, website, internet site, site	0.02842
+u=140967313,4211297842&fm=27&gp=0.jpg	menu	0.01542
+u=140967313,4211297842&fm=27&gp=0.jpg	trombone	0.01354
+u=1417378231,1172299742&fm=27&gp=0.jpg	television, television system	0.47563
+u=1417378231,1172299742&fm=27&gp=0.jpg	monitor	0.25642
+u=1417378231,1172299742&fm=27&gp=0.jpg	screen, CRT screen	0.22003
+u=1417378231,1172299742&fm=27&gp=0.jpg	desktop computer	0.02020
+u=1417378231,1172299742&fm=27&gp=0.jpg	bittern	0.00205
+u=1550235049,2644574237&fm=27&gp=0.jpg	ocarina, sweet potato	0.43201
+u=1550235049,2644574237&fm=27&gp=0.jpg	stretcher	0.15623
+u=1550235049,2644574237&fm=27&gp=0.jpg	switch, electric switch, electrical switch	0.04807
+u=1550235049,2644574237&fm=27&gp=0.jpg	whistle	0.03460
+u=1550235049,2644574237&fm=27&gp=0.jpg	binder, ring-binder	0.03006
+u=205301884,2225508915&fm=27&gp=0.jpg	hair slide	0.39421
+u=205301884,2225508915&fm=27&gp=0.jpg	tray	0.12705
+u=205301884,2225508915&fm=27&gp=0.jpg	dial telephone, dial phone	0.03243
+u=205301884,2225508915&fm=27&gp=0.jpg	buckle	0.02292
+u=205301884,2225508915&fm=27&gp=0.jpg	ladle	0.01937
+u=440121575,1430471530&fm=27&gp=0.jpg	odometer, hodometer, mileometer, milometer	0.35968
+u=440121575,1430471530&fm=27&gp=0.jpg	radio, wireless	0.14039
+u=440121575,1430471530&fm=27&gp=0.jpg	cassette player	0.06245
+u=440121575,1430471530&fm=27&gp=0.jpg	tape player	0.03209
+u=440121575,1430471530&fm=27&gp=0.jpg	CD player	0.02494
+u=542250298,1450421181&fm=200&gp=0.jpg	analog clock	0.11356
+u=542250298,1450421181&fm=200&gp=0.jpg	wall clock	0.07443
+u=542250298,1450421181&fm=200&gp=0.jpg	envelope	0.03810
+u=542250298,1450421181&fm=200&gp=0.jpg	digital clock	0.03803
+u=542250298,1450421181&fm=200&gp=0.jpg	jersey, T-shirt, tee shirt	0.02897
+u=552922340,2233334987&fm=27&gp=0.jpg	cliff, drop, drop-off	0.36839
+u=552922340,2233334987&fm=27&gp=0.jpg	valley, vale	0.34038
+u=552922340,2233334987&fm=27&gp=0.jpg	alp	0.02959
+u=552922340,2233334987&fm=27&gp=0.jpg	monastery	0.02778
+u=552922340,2233334987&fm=27&gp=0.jpg	castle	0.01621
+u=560150839,2769497518&fm=27&gp=0.jpg	tractor	0.65302
+u=560150839,2769497518&fm=27&gp=0.jpg	harvester, reaper	0.12701
+u=560150839,2769497518&fm=27&gp=0.jpg	snowplow, snowplough	0.04988
+u=560150839,2769497518&fm=27&gp=0.jpg	thresher, thrasher, threshing machine	0.03460
+u=560150839,2769497518&fm=27&gp=0.jpg	plow, plough	0.02468
+u=713165765,4144155598&fm=27&gp=0.jpg	coral reef	0.85492
+u=713165765,4144155598&fm=27&gp=0.jpg	tiger shark, Galeocerdo cuvieri	0.01530
+u=713165765,4144155598&fm=27&gp=0.jpg	scuba diver	0.01114
+u=713165765,4144155598&fm=27&gp=0.jpg	rock beauty, Holocanthus tricolor	0.01040
+u=713165765,4144155598&fm=27&gp=0.jpg	anemone fish	0.01001
+u=840685137,788794441&fm=27&gp=0.jpg	disk brake, disc brake	0.04180
+u=840685137,788794441&fm=27&gp=0.jpg	digital watch	0.03877
+u=840685137,788794441&fm=27&gp=0.jpg	modem	0.02456
+u=840685137,788794441&fm=27&gp=0.jpg	ocarina, sweet potato	0.02421
+u=840685137,788794441&fm=27&gp=0.jpg	remote control, remote	0.02356
