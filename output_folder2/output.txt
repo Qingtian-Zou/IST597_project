@@ -1,0 +1,110 @@
+images.jpg	French loaf	0.76967
+images.jpg	toaster	0.03462
+images.jpg	bakery, bakeshop, bakehouse	0.00904
+images.jpg	saltshaker, salt shaker	0.00537
+images.jpg	Band Aid	0.00396
+images11.jpg	Band Aid	0.13392
+images11.jpg	nail	0.02021
+images11.jpg	hook, claw	0.01846
+images11.jpg	diaper, nappy, napkin	0.01744
+images11.jpg	bath towel	0.01453
+images15.jpg	can opener, tin opener	0.41663
+images15.jpg	corkscrew, bottle screw	0.30561
+images15.jpg	hair slide	0.07866
+images15.jpg	loupe, jeweler's loupe	0.03912
+images15.jpg	hook, claw	0.03203
+images17.jpg	soccer ball	0.98849
+images17.jpg	cauliflower	0.00172
+images17.jpg	silky terrier, Sydney silky	0.00015
+images17.jpg	volleyball	0.00010
+images17.jpg	croquet ball	0.00008
+images18.jpg	shoji	0.61693
+images18.jpg	folding chair	0.08180
+images18.jpg	window screen	0.02053
+images18.jpg	file, file cabinet, filing cabinet	0.01391
+images18.jpg	sliding door	0.01124
+images3.jpg	wardrobe, closet, press	0.55788
+images3.jpg	doormat, welcome mat	0.05199
+images3.jpg	sliding door	0.01696
+images3.jpg	medicine chest, medicine cabinet	0.01371
+images3.jpg	chiffonier, commode	0.01025
+images4.jpg	combination lock	0.41476
+images4.jpg	chest	0.12974
+images4.jpg	switch, electric switch, electrical switch	0.08011
+images4.jpg	modem	0.06442
+images4.jpg	radio, wireless	0.02214
+images6.jpg	knee pad	0.31386
+images6.jpg	stopwatch, stop watch	0.04984
+images6.jpg	nipple	0.03580
+images6.jpg	toyshop	0.01738
+images6.jpg	soap dispenser	0.00895
+images9.jpg	window shade	0.22349
+images9.jpg	book jacket, dust cover, dust jacket, dust wrapper	0.20992
+images9.jpg	binder, ring-binder	0.14162
+images9.jpg	envelope	0.03356
+images9.jpg	menu	0.01964
+im_04.jpg	tabby, tabby cat	0.68240
+im_04.jpg	Egyptian cat	0.19015
+im_04.jpg	tiger cat	0.08976
+im_04.jpg	lynx, catamount	0.00135
+im_04.jpg	carton	0.00037
+index.jpg	ping-pong ball	0.52334
+index.jpg	face powder	0.03440
+index.jpg	brassiere, bra, bandeau	0.03047
+index.jpg	puck, hockey puck	0.00949
+index.jpg	candle, taper, wax light	0.00932
+index1.jpg	lotion	0.20584
+index1.jpg	eggnog	0.13245
+index1.jpg	face powder	0.09903
+index1.jpg	sunscreen, sunblock, sun blocker	0.07232
+index1.jpg	perfume, essence	0.03380
+index10.jpg	chime, bell, gong	0.75988
+index10.jpg	bell cote, bell cot	0.21437
+index10.jpg	steel drum	0.00149
+index10.jpg	gong, tam-tam	0.00141
+index10.jpg	drumstick	0.00124
+index12.jpg	dining table, board	0.46425
+index12.jpg	pedestal, plinth, footstall	0.32748
+index12.jpg	desk	0.05676
+index12.jpg	stretcher	0.03282
+index12.jpg	folding chair	0.00693
+index13.jpg	folding chair	0.60501
+index13.jpg	rocking chair, rocker	0.16828
+index13.jpg	dining table, board	0.03525
+index13.jpg	pedestal, plinth, footstall	0.03046
+index13.jpg	desk	0.02236
+index14.jpg	carton	0.97557
+index14.jpg	crate	0.00636
+index14.jpg	chest	0.00180
+index14.jpg	hard disc, hard disk, fixed disk	0.00054
+index14.jpg	safe	0.00041
+index16.jpg	vase	0.73381
+index16.jpg	hair slide	0.02877
+index16.jpg	pot, flowerpot	0.02397
+index16.jpg	picket fence, paling	0.01790
+index16.jpg	bell pepper	0.01299
+index19.jpg	seashore, coast, seacoast, sea-coast	0.58749
+index19.jpg	lakeside, lakeshore	0.21175
+index19.jpg	promontory, headland, head, foreland	0.06777
+index19.jpg	beacon, lighthouse, beacon light, pharos	0.01318
+index19.jpg	breakwater, groin, groyne, mole, bulwark, seawall, jetty	0.00944
+index2.jpg	notebook, notebook computer	0.30583
+index2.jpg	modem	0.10370
+index2.jpg	hand-held computer, hand-held microcomputer	0.05470
+index2.jpg	screen, CRT screen	0.04308
+index2.jpg	space bar	0.03231
+index5.jpg	earthstar	0.05461
+index5.jpg	pinwheel	0.03850
+index5.jpg	hair slide	0.01640
+index5.jpg	wall clock	0.01295
+index5.jpg	shield, buckler	0.01099
+index7.jpg	sock	0.59068
+index7.jpg	wool, woolen, woollen	0.24485
+index7.jpg	Christmas stocking	0.02678
+index7.jpg	mitten	0.01934
+index7.jpg	knee pad	0.00971
+index8.jpg	teddy, teddy bear	0.13250
+index8.jpg	toyshop	0.09791
+index8.jpg	weasel	0.04395
+index8.jpg	saltshaker, salt shaker	0.03650
+index8.jpg	mink	0.03476
